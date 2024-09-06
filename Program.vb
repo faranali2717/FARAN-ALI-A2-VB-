@@ -1,7 +1,12 @@
-Imports System
+Imports System.Console
 
 Module Program
-    Sub Main(args As String())
-        Console.WriteLine("Hello World!")
+    Sub Main()
+        Dim name As String
+        WriteLine("enter your first name")
+        name = ReadLine()
+        WriteLine("hello " & name & " ,how are you?")
+        ReadLine()
+
     End Sub
 End Module
